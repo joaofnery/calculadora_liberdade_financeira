@@ -1,5 +1,5 @@
-casa = float(input('Qual o valor da casa que você quer comprar? '))
-salario = float(input('Qual é o seu salário mensal? '))
+casa = float(input('Qual o valor da casa que você quer comprar? R$'))
+salario = float(input('Qual é o seu salário mensal? R$'))
 prazo = int(input('Em quantos \033[1;31mANOS\033[m você quer financiar a casa? '))
 
 prestacao = casa / (prazo * 12)
